@@ -237,7 +237,7 @@ export default function MainPage(){
                     className={styles.input_send}
                     />
 
-                    <input type="hidden" name="_next" value="http://localhost:3000"></input>
+                    <input type="hidden" name="_next" value="https://cabreraluc-info.vercel.app"></input>
                     <input type="hidden" name="_captcha" value="false"></input>
                 </form>
                 </div>
@@ -252,8 +252,11 @@ export default function MainPage(){
                     >
                     <h1><AiFillGithub/></h1>
                     </a>
+                 
                    
                 </div>
+                <h5 style={{margin:"1rem"}}>cabreralucaspatricio@gmail.com</h5>
+                    <h5 style={{margin:"1rem"}}>+54 9 11 64380322</h5>
             </div>
 
           </div>
