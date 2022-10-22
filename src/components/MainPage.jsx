@@ -255,8 +255,8 @@ export default function MainPage(){
                  
                    
                 </div>
-                <h5 style={{margin:"1rem"}}>cabreralucaspatricio@gmail.com</h5>
-                    <h5 style={{margin:"1rem"}}>+54 9 11 64380322</h5>
+                <h5 style={{margin:"1rem"}}>Email: cabreralucaspatricio@gmail.com</h5>
+                    <h5 style={{margin:"1rem"}}>Telefono: +54 9 11 64380322</h5>
             </div>
 
           </div>
