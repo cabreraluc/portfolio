@@ -222,7 +222,7 @@ export default function MainPage(){
                      <input type="text" name="name"/>
                     </div>
                     <div className={styles.contact_item}>
-                     <label for="email">Email</label>
+                     <label for="email">Correo electrónico del remitente</label>
                      <input type="email" name="email"/>
                     </div >
                     <div className={styles.contact_item}>
@@ -255,8 +255,8 @@ export default function MainPage(){
                  
                    
                 </div>
-                <h5 style={{margin:"1rem"}}>Email: cabreralucaspatricio@gmail.com</h5>
-                    <h5 style={{margin:"1rem"}}>Telefono: +54 9 11 64380322</h5>
+                <h5 style={{margin:"1rem"}}>Correo electrónico: cabreralucaspatricio@gmail.com</h5>
+                    <h5 style={{margin:"1rem"}}>Teléfono: +54 9 11 64380322</h5>
             </div>
 
           </div>
