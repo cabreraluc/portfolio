@@ -103,16 +103,16 @@ export default function MainPage(){
                 <h1 className={styles.second_section_title}>Mis proyectos</h1>
                 <div className={styles.Projects_cards_container}>
                       <div className={styles.Projects_cards}>
-                      <a href="https://front-pi-inky.vercel.app/" target="_blanck"
+                      <a href="https://thepokedex-cabreraluc.vercel.app/" target="_blanck"
                       style={{textDecoration:"none",
                       color:"black"}}>
                         <h2 >The Pokedex</h2>
                          </a>
-                         <a href="https://front-pi-inky.vercel.app/" target="_blanck">
+                         <a href="https://thepokedex-cabreraluc.vercel.app/" target="_blanck">
                           <img src={pokemons} alt="" />
                          </a>
                           <div>
-                              <a href="https://front-pi-inky.vercel.app/" target="_blanck" style={{textDecoration:"none", color:"black"}}>
+                              <a href="https://thepokedex-cabreraluc.vercel.app/" target="_blanck" style={{textDecoration:"none", color:"black"}}>
                           
                           </a>
                           <body>
@@ -124,7 +124,7 @@ export default function MainPage(){
                           </div>
                       </div>
                     <div className={styles.Projects_cards}>
-                    <a href="https://front-pi-inky.vercel.app/" target="_blanck"
+                    <a href="https://artket.vercel.app/" target="_blanck"
                     style={{textDecoration:"none",
                     color:"black"}}>
                     <h2 >Artket</h2>
