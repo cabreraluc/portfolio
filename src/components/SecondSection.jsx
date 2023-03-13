@@ -74,7 +74,7 @@ export default function SecondSection() {
           </h2>
         </div>
       </div>
-      <div className={styles.project_card} data-aos="fade-left">
+      <div className={styles.project_card} data-aos="fade-right">
         <div className={styles.project_card_left}>
           <h1>The Pokedex</h1>
           <img src={firstImg} alt="" className={styles.first_img} />
@@ -99,6 +99,17 @@ export default function SecondSection() {
             <a
               onClick={() => {
                 window.open("https://github.com/cabreraluc/front_pi", "_blank");
+              }}
+              target="_blank"
+              className={styles.button_box_span}
+            >
+              {" "}
+              Frontend
+            </a>
+          </span>
+          <span>
+            <a
+              onClick={() => {
                 window.open(
                   "https://github.com/cabreraluc/backend_pi",
                   "_blank"
@@ -108,7 +119,7 @@ export default function SecondSection() {
               className={styles.button_box_span}
             >
               {" "}
-              Repositorio
+              Backend
             </a>
           </span>
           <a
@@ -139,10 +150,7 @@ export default function SecondSection() {
             <SiRedux /> <SiExpress /> <SiPostgresql /> <FaNodeJs />{" "}
             <SiSequelize />
           </h2>
-          <div className={styles.button_box}>
-            <span className={styles.button_box_span}>Repositorio</span>
-            <span className={styles.button_box_span}>Deploy</span>
-          </div>
+          <div className={styles.button_box}></div>
         </div>
       </div>
     </div>
