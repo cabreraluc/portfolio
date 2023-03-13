@@ -45,6 +45,11 @@ function ResponsiveAppBar(props) {
             </ListItemButton>
           </ListItem>
         ))}
+        <ListItem disablePadding>
+          <ListItemButton href={CV} sx={{ textAlign: "center" }}>
+            <ListItemText> Descargar CV</ListItemText>
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
