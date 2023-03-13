@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+  background-color: #fefeff;
+}
+
+.project_card {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: calc(0.6em + 0.4vw);
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+  box-shadow: 0rem 0rem 0.5rem rgb(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+
+.project_card_left {
+  width: 50%;
+}
+
+.project_card_right {
+}
+
+.first_img {
+  width: 100%;
+}
+
+.button_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button_box_span {
+  margin: 0 1rem;
+  cursor: pointer;
+  color: #4d4c7d;
+  text-decoration: none;
+}
