@@ -108,7 +108,7 @@ function ResponsiveAppBar(props) {
                 ))}
               </div>
               <Button sx={{ color: "#fff" }} href={CV}>
-                DESCARGAR CV
+                Descargar CV
               </Button>
             </div>
           </Box>

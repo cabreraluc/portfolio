@@ -76,7 +76,7 @@ export default function MainPage() {
         <SecondSection></SecondSection>
         <ThirtSection></ThirtSection>
 
-        <div className={styles.fourth_section} id="seccion-4">
+        {/* <div className={styles.fourth_section} id="seccion-4">
           <div className={styles.form_container} data-aos="fade-up">
             <h2>Contacto (apartado no disponible)</h2>
             <div>
@@ -142,7 +142,7 @@ export default function MainPage() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
