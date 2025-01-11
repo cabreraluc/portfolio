@@ -1,4 +1,4 @@
-import styles from "../cssModules/ThirtSection.module.css";
+import styles from "../cssModules/TrajectoryAndTechnologies.module.css";
 import { Link } from "react-router-dom";
 import { SiSequelize } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -36,7 +36,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 
-export default function ThirtSection() {
+export default function TrajectoryAndTechnologies() {
   AOS.init({
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -58,9 +58,9 @@ export default function ThirtSection() {
     anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
   });
   return (
-    <div id="seccion-3" className={styles.container}>
+    <div id="seccion-2" className={styles.container}>
       <div className={styles.time_line} data-aos="fade-right">
-        <h3> TRAYECTORIA</h3>
+        <h1> Trajectory</h1>
         <Timeline position="alternate">
           <TimelineItem>
             <TimelineOppositeContent
@@ -68,14 +68,14 @@ export default function ThirtSection() {
               align="right"
               variant="body2"
             >
-              May 2022
+              May - October 2022
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot
                 sx={{
                   color: "white",
-                  backgroundColor: "#4D4C7D",
+                  backgroundColor: "#28292c",
                   border: "solid 2px white",
                 }}
               >
@@ -98,7 +98,7 @@ export default function ThirtSection() {
               <TimelineDot
                 sx={{
                   color: "white",
-                  backgroundColor: "#4D4C7D",
+                  backgroundColor: "#28292c",
                   border: "solid 2px white",
                 }}
               >
@@ -125,7 +125,7 @@ export default function ThirtSection() {
               <TimelineDot
                 sx={{
                   color: "white",
-                  backgroundColor: "#4D4C7D",
+                  backgroundColor: "#28292c",
                   border: "solid 2px white",
                 }}
               >
@@ -141,17 +141,17 @@ export default function ThirtSection() {
           </TimelineItem>
         </Timeline>
       </div>
-      <div className={styles.technologies_container} data-aos="fade-up">
-        <h3> TECNOLOGÍAS</h3>
+      <div className={styles.technologies_container} data-aos="fade-right">
+        <h1> Technologies</h1>
         <div className={styles.technologies_box}>
-          {/* <div className={styles.technologies}>
+          <div className={styles.technologies}>
             <span>HTML</span>
             <AiFillHtml5 className={styles.technologies_icon} />
           </div>
           <div className={styles.technologies}>
             <span>CSS</span>
             <DiCss3 className={styles.technologies_icon} />
-          </div> */}
+          </div>
           <div className={styles.technologies}>
             <span>TypeScript</span>
             <SiTypescript className={styles.technologies_icon} />

@@ -1,0 +1,17 @@
+.contact_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.fourth_section {
+  background-color: #1f2023;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem 0;
+  color: white;
+}

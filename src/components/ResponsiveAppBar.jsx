@@ -18,7 +18,7 @@ import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstruct
 import CV from "./CV Cabrera Lucas.pdf";
 
 const drawerWidth = 240;
-const navItems = ["Proyectos", "Trayectoria", "Contacto"];
+const navItems = ["Trajectory", "Experience", "Personal projects", "Contact"];
 
 function ResponsiveAppBar(props) {
   const { window } = props;
@@ -63,7 +63,7 @@ function ResponsiveAppBar(props) {
       <AppBar
         component="nav"
         sx={{
-          backgroundColor: "#363062",
+          backgroundColor: "#28292C",
         }}
       >
         <Toolbar>
@@ -101,14 +101,14 @@ function ResponsiveAppBar(props) {
                   <Button
                     key={item}
                     href={`#seccion-${index + 2}`}
-                    sx={{ color: "#fff" }}
+                    sx={{ color: "#EFECE5" }}
                   >
                     {item}
                   </Button>
                 ))}
               </div>
-              <Button sx={{ color: "#fff" }} href={CV}>
-                Descargar CV
+              <Button sx={{ color: "#EFECE5" }} href={CV}>
+                Download CV
               </Button>
             </div>
           </Box>
@@ -147,23 +147,3 @@ ResponsiveAppBar.propTypes = {
 };
 
 export default ResponsiveAppBar;
-//   return (
-//     <div className={styles.header}>
-//       <a className={styles.header_buttons} href="#seccion-2">
-//         Proyectos
-//       </a>
-//       <a className={styles.header_buttons} href="#seccion-3">
-//         Tecnologías y estudios
-//       </a>
-//       <a className={styles.header_buttons} href="#seccion-4">
-//         Contacto
-//       </a>
-//       <a
-//         download="CV Cabrera Lucas"
-//         href={CV}
-//         className={styles.header_downloadcv}
-//       >
-//         Descargar CV
-//       </a>
-//     </div>
-//   );

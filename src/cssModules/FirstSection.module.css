@@ -1,15 +1,18 @@
 .content {
-  background-color: #4d4c7d;
+  background-color: #eef8ff;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
+  flex-direction: column;
+  padding: 0 15rem;
 }
 
 .title {
-  color: white;
+  font-weight: 400;
+  font-style: normal;
+  color: #78e3fd;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
@@ -24,6 +27,5 @@
 }
 
 .description {
-  color: rgb(231, 231, 231);
-  font-size: calc(0.6em + 0.5vw);
+  color: #78e3fd;
 }
