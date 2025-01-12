@@ -6,15 +6,10 @@ import { DiReact } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import jrcImg from "../../assets/jrcLogo.png";
-import car2TokenImg from "../../assets/car2tokenLogo.png";
 import barulloImg from "../../assets/barullo.png";
 import BMImg from "../../assets/BM.jpg";
 import { SiStyledcomponents } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import ExperienceCard from "../Card/Card";
@@ -22,7 +17,7 @@ import {
   FreeClasses,
   SalesManagementSystem,
   TicketSalesApplication,
-} from "../CardsContent/BrilliantManiacs";
+} from "../CardsContent/PersonalProjects";
 const experienceCard = [
   {
     card: <FreeClasses />,

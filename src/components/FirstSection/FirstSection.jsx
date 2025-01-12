@@ -1,10 +1,10 @@
-import styles from "../cssModules/FirstSection.module.css";
+import styles from "../../cssModules/FirstSection.module.css";
 
 export default function FirstSection() {
   return (
     <div className={styles.content}>
       <div className={styles.title}>
-        <h1>{`<h1>Welcome! I'm Lucas Cabrera</h1>`}</h1>
+        <h1>{`Welcome! I'm Lucas Cabrera`}</h1>
       </div>
 
       <div className={styles.description}>

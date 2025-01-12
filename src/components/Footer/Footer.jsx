@@ -1,6 +1,6 @@
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import swal from "sweetalert";
-import styles from "../cssModules/FourthSection.module.css";
+import styles from "../../cssModules/FourthSection.module.css";
 const Footer = () => {
   const copy = async () => {
     await navigator.clipboard.writeText("cabreralucaspatricio@gmail.com");

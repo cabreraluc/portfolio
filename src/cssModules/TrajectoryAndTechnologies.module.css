@@ -6,7 +6,8 @@
   min-height: 100vh;
   flex-direction: column;
   padding: 2rem 0;
-  color: #eef8ff;
+
+  color: white;
   gap: 5rem;
 }
 

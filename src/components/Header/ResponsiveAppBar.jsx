@@ -15,7 +15,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
-import CV from "./CV Cabrera Lucas.pdf";
+import CV from "../../assets/CV Cabrera Lucas.pdf";
 
 const drawerWidth = 240;
 const navItems = ["Trajectory", "Experience", "Personal projects", "Contact"];
