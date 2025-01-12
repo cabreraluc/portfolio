@@ -12,7 +12,20 @@
   gap: 2rem;
   overflow-x: auto; /* Habilita el desplazamiento horizontal */
   scroll-behavior: smooth; /* Desplazamiento suave */
-  scrollbar-width: none; /* Firefox */
+}
+
+.cards_container::-webkit-scrollbar {
+  height: 5px; /* Altura de la scrollbar horizontal */
+ }
+
+.cards_container::-webkit-scrollbar-thumb {
+  background: #115e91; /* Color del pulgar */
+  border-radius: 4px; /* Bordes redondeados */
+  size: 3rem;
+}
+
+.cards_container::-webkit-scrollbar-track {
+  background: #d4d7d8; /* Color del riel */
 }
 
 .cards_container:active {

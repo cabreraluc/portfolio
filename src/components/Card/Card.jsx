@@ -2,7 +2,7 @@ import styles from "../../cssModules/ProfessionalExperience.module.css";
 
 const ExperienceCard = ({ icons, img, children }) => {
   return (
-    <div className={styles.project_card} data-aos="fade-up">
+    <div className={styles.project_card}>
       <div className={styles.img_and_text}>
         <div className={styles.img_container}>
           <img src={img} alt="experience_img" className={styles.first_img} />

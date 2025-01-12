@@ -4,7 +4,6 @@ import { SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiReact } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import barulloImg from "../../assets/barullo.png";
 import BMImg from "../../assets/BM.jpg";
@@ -56,9 +55,8 @@ const experienceCard = [
 ];
 
 export default function PersonalProjects() {
-  AOS.init();
   return (
-    <div className={styles.container} id="seccion-3">
+    <div className={styles.container}>
       <h1 className={styles.title}>Personal projects</h1>
       <div className={styles.cards_container}>
         {experienceCard.map((card, index) => {
